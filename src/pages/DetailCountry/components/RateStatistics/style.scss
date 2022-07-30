@@ -1,0 +1,30 @@
+.detail-rate {
+
+    .card-group {
+
+        .casesrate-card,
+        .recovered-card,
+        .deathsrate-card {
+            font-size: 18px;
+            margin: 0 16px;
+            margin-bottom: 8px;
+            color: aliceblue;
+
+            p {
+                font-style: italic;
+            }
+        }
+
+        .casesrate-card {
+            background-color: #ff9800;
+        }
+
+        .recovered-card {
+            background-color: #009688;
+        }
+
+        .deathsrate-card {
+            background-color: #f44336;
+        }
+    }
+}

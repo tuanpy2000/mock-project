@@ -1,0 +1,112 @@
+.news-container {
+  margin-top: 60px;
+  .ant-list-items {
+    .ant-list-item {
+      min-height: 36vh;
+      border-bottom: solid 1px black;
+    }
+  }
+
+  span {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    padding: 6px;
+  }
+  .loadmore-button {
+    span {
+      padding: 0px;
+    }
+  }
+}
+.dark-news-container {
+  margin-top: 60px;
+  background: #172825;
+  a {
+    color: whitesmoke;
+  }
+  span {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    padding: 6px;
+    color: whitesmoke;
+  }
+  .ant-list-item {
+    min-height: 36vh;
+  }
+  .loadmore-button {
+    span {
+      padding: 0px;
+      color: black;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .news-container {
+    padding: 16px 8px 0 8px;
+    .ant-list-items {
+      display: flex;
+      flex-wrap: wrap;
+      .ant-list-item {
+        width: 47.8%;
+        background: #cbcbcb;
+        border: none;
+        margin: 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+  .dark-news-container {
+    padding: 16px 8px 0 8px;
+    .ant-list-items {
+      display: flex;
+      flex-wrap: wrap;
+      .ant-list-item {
+        width: 47.8%;
+        background: #265248;
+        border: none;
+        margin: 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .news-container {
+    padding: 16px 8px 0 8px;
+    .ant-list-items {
+      display: flex;
+      flex-wrap: wrap;
+      .ant-list-item {
+        width: 31.7%;
+        min-height: 80px;
+        background: #cbcbcb;
+        border: none;
+        margin: 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+  .dark-news-container {
+    padding: 16px 8px 0 8px;
+    .ant-list-items {
+      display: flex;
+      flex-wrap: wrap;
+      .ant-list-item {
+        width: 31.7%;
+        min-height: 80px;
+        background: #265248;
+        border: none;
+        margin: 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

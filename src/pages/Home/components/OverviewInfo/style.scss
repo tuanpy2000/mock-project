@@ -1,0 +1,58 @@
+.overview {
+    margin-top: 8px;
+
+    .card-group {
+
+        .ant-card-head {
+            font-size: unset;
+        }
+
+        .confirmed-card {
+            background-color: #f4f3a4fe;
+            margin: 0 16px;
+            color: #faad14;
+            font-size: 18px;
+            margin-bottom: 8px;
+
+            div.ant-card-head {
+                background: #f9f900fe;
+            }
+
+            p {
+                font-weight: 600;
+            }
+        }
+
+        .recovered-card {
+            background-color: #c1f8e4;
+            margin: 0 16px;
+            color: #52c41a;
+            font-size: 18px;
+            margin-bottom: 8px;
+
+            div.ant-card-head {
+                background: #86f8ce;
+            }
+
+            p {
+                font-weight: 600;
+            }
+        }
+
+        .deaths-card {
+            background-color: #f8eae9bf;
+            margin: 0 16px;
+            color: #ff4d4f;
+            font-size: 18px;
+            margin-bottom: 8px;
+
+            div.ant-card-head {
+                background: #ec473b3d;
+            }
+
+            p {
+                font-weight: 600;
+            }
+        }
+    }
+}

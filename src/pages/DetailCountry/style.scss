@@ -1,0 +1,54 @@
+.detail-container {
+  .detail {
+    padding: 80px 16px 16px 16px;
+    h4 {
+      kbd {
+        background: #d9d9d9;
+      }
+    }
+    .country-line-chart {
+      padding: 0 16px;
+    }
+  }
+}
+.dark-detail-container {
+  background: #172825;
+  .detail {
+    padding: 80px 16px 16px 16px;
+    .ant-select-selector {
+      background: #265248;
+      color: whitesmoke;
+      border: none;
+    }
+    .ant-select-arrow {
+      color: whitesmoke;
+    }
+    h3,
+    h4 {
+      color: whitesmoke;
+    }
+    h4 {
+      kbd {
+        background: #265248;
+        color: whitesmoke;
+      }
+    }
+    .detailcountry {
+      .confirmed-card,
+      .recovered-card,
+      .deaths-card {
+        border: none;
+      }
+    }
+    .detail-rate {
+      .casesrate-card,
+      .recovered-card,
+      .deathsrate-card {
+        border: none;
+      }
+    }
+    .country-line-chart {
+      padding: 0 16px;
+    }
+  }
+}

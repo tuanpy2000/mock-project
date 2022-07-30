@@ -1,0 +1,100 @@
+.home-container {
+  padding: 80px 16px 16px 16px;
+  .ant-table-pagination-right {
+    justify-content: center;
+  }
+}
+.dark-home-container {
+  background: #172825;
+  padding: 80px 16px 16px 16px;
+  .country-search {
+    .ant-select-selector {
+      background: #265248;
+      color: whitesmoke;
+      border: none;
+    }
+    .ant-select-arrow {
+      color: whitesmoke;
+    }
+  }
+  h3 {
+    color: whitesmoke;
+  }
+  .overview {
+    .confirmed-card,
+    .recovered-card,
+    .deaths-card {
+      border: none;
+    }
+  }
+  .table-container {
+    .table {
+      th.ant-table-cell.ant-table-cell {
+        background: #1d3e38;
+        color: whitesmoke;
+      }
+      td.ant-table-cell.ant-table-cell {
+        background: #265248;
+        color: whitesmoke;
+      }
+      .ant-pagination-item-link {
+        background: #265248;
+        color: whitesmoke;
+      }
+      li.ant-pagination-item.ant-pagination-item-active {
+        a {
+          color: #1890ff;
+        }
+      }
+      li.ant-pagination-item {
+        border-color: whitesmoke;
+        background: #265248;
+        a {
+          color: whitesmoke;
+        }
+      }
+      .ant-pagination-item-ellipsis {
+        color: whitesmoke;
+      }
+      .ant-table-pagination-right {
+        justify-content: center;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-group {
+    display: flex;
+    justify-content: space-around;
+    .ant-card {
+      width: 29%;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .overview {
+    float: left;
+    width: 49%;
+  }
+  .table-container {
+    margin-top: 8px;
+    float: right;
+    width: 49%;
+  }
+  .linechart-container {
+    margin-top: 8px;
+    float: left;
+    width: 49%;
+  }
+  .map-container {
+    float: left;
+    width: 48%;
+  }
+  .home-container {
+    min-height: 1140px;
+  }
+
+  .dark-home-container {
+    min-height: 1140px;
+  }
+}
